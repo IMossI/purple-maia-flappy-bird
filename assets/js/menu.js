@@ -17,7 +17,7 @@ var menuState = {
         button = game.add.button(game.world.centerX-95, 200, 'button', this.startGame, this, 2, 1, 0);
         
         var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
-        spaceKey.onDOwn.add(this.startGame, this);
+        spaceKey.onDown.add(this.startGame, this);
         
         text = game.add.text(110, 125, "Score:");
         

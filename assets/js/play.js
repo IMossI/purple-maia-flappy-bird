@@ -83,6 +83,7 @@ var playState = {
     },
     
     restartGame: function() {
+        console.log("I died");
         game.state.start('menu');
     },
     
